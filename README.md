@@ -5,3 +5,5 @@
 [C++11 atomic 简单使用](atomic.cc)
 
 [C++11 模拟死锁](deadlock.cc)
+
+[C++11 阻塞队列](BlockQueue.cc)
