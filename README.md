@@ -1,0 +1,1 @@
+[将sharedptr集中在某个线程析构](sharedThread.cc)
