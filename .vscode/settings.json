@@ -4,6 +4,7 @@
         "string": "cpp",
         "mutex": "cpp",
         "chrono": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "condition_variable": "cpp"
     }
 }
