@@ -5,6 +5,8 @@
         "mutex": "cpp",
         "chrono": "cpp",
         "thread": "cpp",
-        "condition_variable": "cpp"
+        "condition_variable": "cpp",
+        "functional": "cpp",
+        "atomic": "cpp"
     }
 }
