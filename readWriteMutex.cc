@@ -64,6 +64,7 @@ public:
         unique_lock<mutex> lock(mutex_);
         uniqueLock = false;
         canRead_.notify_all();
+        canWrite_.notify_one();
     }
     void shared_unlock()
     {
@@ -104,7 +105,7 @@ int main()
         );
     }
 
-
+    
     while(1)
     {
         this_thread::sleep_for(chrono::seconds(1));
