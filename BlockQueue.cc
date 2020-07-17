@@ -16,7 +16,7 @@ public:
     void push(const Type& ton)
     {
         unique_lock<mutex> lock(mutex_);
-        while (queue_.size >= maxSize_)
+        while (queue_.size() >= maxSize_)
         {
             notfull_.wait(lock);
         }
