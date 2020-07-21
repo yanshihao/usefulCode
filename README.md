@@ -10,4 +10,4 @@
 
 [C++11 读写锁](readWriteMutex.cc)
 
-[newHanler](newHandler.cc)
+[newHandler](newHandler.cc)
