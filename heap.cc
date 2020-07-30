@@ -8,7 +8,11 @@ public:
 	{
 		make_heap();
 	}
-
+	heap(vector<T>&& d)
+	{
+		d.swap(data_);
+		make_heap();
+	}
 	void push(const T & newval)
 	{
 		data_.push_back(newval);
