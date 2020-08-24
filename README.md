@@ -15,3 +15,5 @@
 [简易shared_ptr](mysharedptr.cc)
 
 [模板堆](heap.cc)
+
+[哲学家就餐问题的互斥锁和条件变量解决方案](philos.cc)
